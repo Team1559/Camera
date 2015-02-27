@@ -17,7 +17,7 @@ public class Robot extends IterativeRobot {
      */
 	Camera camera;
     public void robotInit() {
-    	camera = new Camera("cam0");
+    	camera = new Camera("cam1");//Use the Web Interface to get Cam #
     }
 
     /**
